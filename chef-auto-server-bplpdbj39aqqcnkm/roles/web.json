@@ -1,0 +1,15 @@
+{
+  "name": "web",
+  "description": "This role installs the web cookbook",
+  "env_run_lists": {
+    "dev": [
+      "recipe[nodejs]"
+    ],
+	"qua": [
+      "recipe[nodejs]"
+    ],
+	"prd": [
+      "recipe[nodejs]"
+    ]
+  }
+}

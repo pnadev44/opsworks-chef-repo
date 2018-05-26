@@ -1,0 +1,8 @@
+source "https://supermarket.chef.io"
+cookbook "build-essential"
+cookbook "ark"
+cookbook "chef-client"
+cookbook "nodejs"
+cookbook 'opsworks-audit', '~> 1.0.0', path: 'site-cookbooks/opsworks-audit' # optional
+
+# cookbook 'ssh-hardening'
